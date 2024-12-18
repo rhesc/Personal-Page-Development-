@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script> <!-- External JavaScript file -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #fef9ff; /* Light pink background */
+            color: #444;
+        }
+
+        header {
+            background-color: #ffb6c1; /* Light pastel pink */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        header nav ul li {
+            margin: 0 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #ff69b4; /* Hot pink */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #ff69b4; /* Hot pink color */
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            background-color: #ffb6c1; /* Light pastel pink */
+            text-align: center;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-user-circle"></i> Welcome to My Personal Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="biodata.html"><i class="fas fa-id-card"></i> My Biodata</a></li>
+                <li><a href="portfolio.html"><i class="fas fa-briefcase"></i> My Portfolio</a></li>
+                <li><a href="video.html"><i class="fas fa-video"></i> My Video</a></li>
+                <li><a href="comments.html"><i class="fas fa-comments"></i> Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2><i class="fas fa-handshake"></i> Hi there, I'm Rhessy!</h2>
+            <p>
+                Welcome to my personal website! This website serves as my digital portfolio, where I showcase my skills and achievements.
+                Whether you are here to learn more about me, explore my work, or just passing through, I hope you find something that inspires or interests you.
+            </p>
+            <!-- Greeting message will appear here -->
+    
+        </section>
+        <section>
+            <h2><i class="fas fa-info-circle"></i> About Me</h2>
+            <p>
+                I am a student from the Faculty of Computing and Informatics, currently pursuing a degree in Multimedia Technology at Universiti Malaysia Sabah, Labuan International Campus (UMSKAL).
+                My academic journey is driven by a passion for creating engaging multimedia experiences and exploring innovative solutions in the field of technology.
+                I am always eager to learn and apply new ideas, whether it’s developing creative projects, enhancing digital content, or building user-friendly applications.
+            </p>
+        </section>
+        <section>
+            <h2><i class="fas fa-heart"></i> A Warm Welcome to My Visitors</h2>
+            <p>
+                Thanks for visiting! Take a look around to learn more about me. Check out my portfolio for some of my work, watch my video to hear my story, and drop a comment on the 'Comments' page—I’d love to hear from you!
+            </p>
+            <p>
+                Feel free to reach out if you have questions or just want to say hi. Enjoy your visit and have an awesome day!
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Personal Webpage. All rights reserved.</p>
+         <p id="greeting"></p>
+    </footer>
+</body>
+</html>
